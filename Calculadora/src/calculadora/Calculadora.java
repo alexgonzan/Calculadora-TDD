@@ -96,12 +96,16 @@ public class Calculadora {
 		int res = calc.div(a, b);
 		int resu = calc.add(a, b);
 		int resul = calc.sub(a, b);
+		int result = calc.product(a, b);
 		
 		
-		
+		System.out.println("Estos fueron los resultados");
+		System.out.println("Probando cambios");
+		System.out.println("Nuevas pruebas");
 		System.out.println("Division = " + res);
 		System.out.println("Suma = " + resu);
 		System.out.println("Resta = " + resul);
+		System.out.println("Multiplicación = " + result);
 		
 	}
 	
