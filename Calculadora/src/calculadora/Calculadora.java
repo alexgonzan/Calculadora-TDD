@@ -20,6 +20,7 @@ public class Calculadora {
 			
 			if(a==0 || b ==0) {
 				System.out.println("No es posible dividir por 0  ");
+				System.out.println("Intruduzca valores diferentes a Cero");
 				
 				ans = 0;
 				return ans;
