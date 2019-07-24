@@ -83,7 +83,34 @@ public class CalculadoraTest {
 		int actual = calc.div(5, 0);
 		assertEquals(expected, actual);
 	}
+	
+	@Test
+	public void product() {
+		System.out.println("ansProd()");
+		calc.product(3, 2);
+		int result = calc.ans();
+		int esperado = 6;
+		assertEquals(esperado, result);
+	}
 
+	@Test
+	public void productPorCero() {
+		System.out.println("ansProd()");
+		calc.product(0, 2);
+		int result = calc.ans();
+		int esperado = 0;
+		assertEquals(esperado, result);
+	}
+	
+	@Test
+	public void productPorNegativo() {
+		System.out.println("ansProd()");
+		calc.product(-3, 2);
+		int result = calc.ans();
+		int esperado = -6;
+		assertEquals(esperado, result);
+	}
+	
 	@Test(timeout = 2100)
 	public void testAlgoritmoOptimo() {
 		calc.operacionOptima();
