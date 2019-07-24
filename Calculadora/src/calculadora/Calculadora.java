@@ -50,6 +50,11 @@ public class Calculadora {
 		ans += v;
 		return ans;
 	}
+
+	public int product(int a, int b) {
+		ans = a * b ;
+		return ans;
+	} 
 	
 	public int sub(int v) {
 		ans -= v;
