@@ -19,7 +19,7 @@ public class Calculadora {
 			
 			
 			if(a==0 || b ==0) {
-				System.out.println("No es posible dividir por 0  ");
+				System.out.println("No es posible dividir hacer una division por 0  ");
 				
 				ans = 0;
 				return ans;
